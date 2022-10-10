@@ -1,0 +1,136 @@
+{
+    "users": [
+        {
+            "name": "tushar",
+            "email": "abc@gmail.com",
+            "user_id": "da789157-f10c-4b66-a7cb-3a1597d40e4f"
+        },
+        {
+            "name": "def",
+            "email": "def@gmail.com",
+            "user_id": "81cd62c1-7f67-4973-a0ce-13f6800ae906"
+        },
+        {
+            "name": "ekg",
+            "email": "ekg@gmail.com",
+            "user_id": "fff6b5d5-531e-4f27-9d00-537d8d71d6d2"
+        },
+        {
+            "name": "lko",
+            "email": "lko@gmail.com",
+            "user_id": "8ce9b94e-d0f0-4c94-884c-747598c84539"
+        },
+        {
+            "name": "po",
+            "email": "po@gmail.com",
+            "user_id": "c0a62e54-d3cb-4bc5-9944-62ff3890304d"
+        },
+        {
+            "name": "poi",
+            "email": "poi@gmail.com",
+            "user_id": "3fa59706-1c54-4198-90ec-b1bc60a6d71e"
+        },
+        {
+            "name": "sdf",
+            "email": "sdf@gmail.com",
+            "user_id": "7047c0b8-8ad6-4d0a-8aea-ab56f9f874c7"
+        },
+        {
+            "name": "sgf",
+            "email": "sgf@gmail.com",
+            "user_id": "615f19e2-d98c-4139-bc64-ea1fc5541097"
+        },
+        {
+            "name": "sgf",
+            "email": "spf@gmail.com",
+            "user_id": "f10089d0-e8bd-4ff9-8ce5-ea5a2b09c674"
+        },
+        {
+            "name": "sgf",
+            "email": "sif@gmail.com",
+            "user_id": "73a701f5-b9a5-4db7-97f5-12626f693747"
+        }
+    ],
+    "groups": [
+        {
+            "group_name": "abc",
+            "group_id": "b1936e4e-655b-4642-adc2-01e33f793b8c",
+            "members": {
+                "da789157-f10c-4b66-a7cb-3a1597d40e4f": 120,
+                "81cd62c1-7f67-4973-a0ce-13f6800ae906": 10,
+                "fff6b5d5-531e-4f27-9d00-537d8d71d6d2": 20
+            },
+            "total_value": 150,
+            "expense": [
+                {
+                    "expense_id": "0f53d2e8-e42f-4779-8d33-b99c8da215fb2",
+                    "expense_name": "fruits",
+                    "value": 50,
+                    "shareWith": {
+                        "da789157-f10c-4b66-a7cb-3a1597d40e4f": 40,
+                        "fff6b5d5-531e-4f27-9d00-537d8d71d6d2": 10
+                    }
+                },
+                {
+                    "expense_id": "5afe6394-1967-4aeb-8859-38c7a8c68ac71",
+                    "expense_name": "milk",
+                    "value": 50,
+                    "shareWith": {
+                        "da789157-f10c-4b66-a7cb-3a1597d40e4f": 40,
+                        "81cd62c1-7f67-4973-a0ce-13f6800ae906": 10
+                    }
+                },
+                {
+                    "expense_id": "5afe6394-1967-4aeb-8859-38c7a8c68ac72",
+                    "expense_name": "fruits",
+                    "value": 50,
+                    "shareWith": {
+                        "da789157-f10c-4b66-a7cb-3a1597d40e4f": 40,
+                        "fff6b5d5-531e-4f27-9d00-537d8d71d6d2": 10
+                    }
+                }
+            ]
+        },
+        {
+            "group_id": "3806fab1-c131-4114-bb11-0496a1a41e4c",
+            "members": {},
+            "group_name": "def",
+            "total_value": 0,
+            "expense": []
+        },
+        {
+            "group_id": "9095f35f-eaf8-43db-94ca-ace5d3d60a08",
+            "members": {},
+            "group_name": "kol",
+            "total_value": 0,
+            "expense": []
+        },
+        {
+            "group_id": "6bc70c75-fb3a-4f2e-802f-cd62f86f3e76",
+            "members": {},
+            "group_name": "poi",
+            "total_value": 0,
+            "expense": []
+        },
+        {
+            "group_id": "2edc7fe5-caf0-45f2-a4c8-53923a3a7dff",
+            "members": {
+                "73a701f5-b9a5-4db7-97f5-12626f693747": 40,
+                "da789157-f10c-4b66-a7cb-3a1597d40e4f": 10
+            },
+            "group_name": "sdf",
+            "total_value": 50,
+            "expense": [
+                {
+                    "expense_id": "10eaefdd-f22c-4c45-b348-8f3be0315d731",
+                    "expense_name": "milk",
+                    "value": 50,
+                    "shareWith": {
+                        "73a701f5-b9a5-4db7-97f5-12626f693747": 40,
+                        "da789157-f10c-4b66-a7cb-3a1597d40e4f": 10
+                    }
+                }
+            ]
+        }
+    ]
+}

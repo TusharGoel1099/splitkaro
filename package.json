@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "nodemon server.js",
+    "dev": "nodemon ts/modules/index.ts",
+    "build": "tsc -p ts/modules"
+  },
+  "dependencies": {
+    "async-mutex": "^0.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "hbs": "^4.2.0",
+    "helmet": "^5.1.1",
+    "uuid": "^9.0.0"
+  }
+}
