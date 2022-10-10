@@ -1,0 +1,159 @@
+{
+	"info": {
+		"_postman_id": "a5e8a240-a959-436f-806d-5df4586fcb5e",
+		"name": "splitkaro",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "9723854"
+	},
+	"item": [
+		{
+			"name": "delete expense",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/v1/deleteExpense?group_id=2edc7fe5-caf0-45f2-a4c8-53923a3a7dff&expense_id=c97ae5f5-0943-4229-8295-931d42404a3c1",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"deleteExpense"
+					],
+					"query": [
+						{
+							"key": "group_id",
+							"value": "2edc7fe5-caf0-45f2-a4c8-53923a3a7dff"
+						},
+						{
+							"key": "expense_id",
+							"value": "c97ae5f5-0943-4229-8295-931d42404a3c1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add group",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"sdf\",\r\n   \"members\":[\"73a701f5-b9a5-4db7-97f5-12626f693747\"]\r\n\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/v1/addGroup",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"addGroup"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "find expense",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/v1/findBalance?group_id=b1936e4e-655b-4642-adc2-01e33f793b8c",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"findBalance"
+					],
+					"query": [
+						{
+							"key": "group_id",
+							"value": "b1936e4e-655b-4642-adc2-01e33f793b8c"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add user",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"sgf\",\r\n    \"email\":\"sif@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/v1/addUser",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"addUser"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "add expense",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n   \"name\": \"Fruits and Milk\",\r\n   \"items\": [{\"name\": \"milk\", \"value\": 50, \"paid_by\": [{\"73a701f5-b9a5-4db7-97f5-12626f693747\": 40, \"da789157-f10c-4b66-a7cb-3a1597d40e4f\": 10}]}]\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/v1/addExpense?group_id=2edc7fe5-caf0-45f2-a4c8-53923a3a7dff",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"v1",
+						"addExpense"
+					],
+					"query": [
+						{
+							"key": "group_id",
+							"value": "2edc7fe5-caf0-45f2-a4c8-53923a3a7dff"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
